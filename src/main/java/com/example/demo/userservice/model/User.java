@@ -14,13 +14,6 @@ public class User
     private String lastname;
     private String email;
 
-    public User(Long id, String firstname, String lastname, String email) {
-        this.id = id;
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.email = email;
-    }
-
     public String getFirstname() {
         return firstname;
     }
